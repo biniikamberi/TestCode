@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CodeRecieve.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Recieved</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+  <div class="PIN1"><input type="number" maxlength="1" min="0" max="9"  oninput="if(this.value.length > 1) this.value = this.value.slice(0, 1);" required  ></div>
+  <div class="PIN2"><input type="number" maxlength="1" min="0" max="9"  oninput="if(this.value.length > 1) this.value = this.value.slice(0, 1);" required  ></div>
+  <div class="PIN3"><input type="number" maxlength="1" min="0" max="9"  oninput="if(this.value.length > 1) this.value = this.value.slice(0, 1);" required  ></div>
+  <div class="PIN4"><input type="number" maxlength="1" min="0" max="9"  oninput="if(this.value.length > 1) this.value = this.value.slice(0, 1);" required  ></div>
+</div>
+    <h3>Enter the 4 digit code from your inbox</h3>
+    <p>Didnt Recieve The Code ☞ <span> Resend</span></p>
+    </div>
+    <label id="Theme">Background Appeareance<select>
+        <option value="Light">Light-Mode</option> 
+        <option value="Dark">Dark-Mode</option>
+     </select></label>
+    <script src="CodeRecieve.js"></script>
+</body>
+</html>
